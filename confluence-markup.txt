@@ -1,0 +1,564 @@
+h1. RestApi RestApi
+
+*Version:* 0.1
+
+----
+
+{toc:printable=true|style=square|minLevel=2|maxLevel=3|type=list|outline=false|include=.*}
+
+h2. Endpoints
+
+    h3. edicao1Get
+    {status:colour=Yellow|title=get|subtle=false}
+    {code}
+    get /edicao/1
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model10
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model10"
+  }
+}
+        {code}
+    ----
+
+    h3. edicaoGet
+    {status:colour=Yellow|title=get|subtle=false}
+    {code}
+    get /edicao
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model8
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model8"
+  }
+}
+        {code}
+    ----
+
+    h3. edicaoPost
+    {status:colour=Yellow|title=post|subtle=false}
+    {code}
+    post /edicao
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+        h5. Body Parameter
+        ||Name||Description||Required||Default||Pattern||
+        |body | |(x) | |  |
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model6
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model6"
+  }
+}
+        {code}
+    ----
+
+    h3. edicaoPut
+    {status:colour=Yellow|title=put|subtle=false}
+    {code}
+    put /edicao
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+        h5. Body Parameter
+        ||Name||Description||Required||Default||Pattern||
+        |body | |(x) | |  |
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model12
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model12"
+  }
+}
+        {code}
+    ----
+
+    h3. evento1Delete
+    {status:colour=Yellow|title=delete|subtle=false}
+    {code}
+    delete /evento/1
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+        h5. Body Parameter
+        ||Name||Description||Required||Default||Pattern||
+        |body | |(x) | |  |
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+String
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "type" : "string"
+  }
+}
+        {code}
+        *Status Code:* 500
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector"
+}
+        {code}
+    ----
+
+    h3. evento1Get
+    {status:colour=Yellow|title=get|subtle=false}
+    {code}
+    get /evento/1
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model9
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model9"
+  }
+}
+        {code}
+    ----
+
+    h3. eventoGet
+    {status:colour=Yellow|title=get|subtle=false}
+    {code}
+    get /evento
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model7
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model7"
+  }
+}
+        {code}
+    ----
+
+    h3. eventoPost
+    {status:colour=Yellow|title=post|subtle=false}
+    {code}
+    post /evento
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+        h5. Body Parameter
+        ||Name||Description||Required||Default||Pattern||
+        |body | |(x) | |  |
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model5
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model5"
+  }
+}
+        {code}
+    ----
+
+    h3. eventoPut
+    {status:colour=Yellow|title=put|subtle=false}
+    {code}
+    put /evento
+    {code}
+    *Summary:* 
+    *Description:* 
+
+
+    h4. Parameters
+
+        h5. Body Parameter
+        ||Name||Description||Required||Default||Pattern||
+        |body | |(x) | |  |
+
+
+
+
+
+
+
+    h4. Responses
+        *Status Code:* 200
+        *Message:*     Definition generated from Swagger Inspector
+        {code:title=Response Type}
+Model11
+        {code}
+        See [#models]
+
+
+
+        {code:title=Response Schema |collapse=true}
+{
+  "description" : "Definition generated from Swagger Inspector",
+  "schema" : {
+    "$ref" : "#/definitions/Model11"
+  }
+}
+        {code}
+    ----
+
+h2. Models
+
+        h3. EdicaoVoList
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |numero | |Integer | |
+ |ano | |Integer | |
+ |dataInicio | |String | |
+ |dataFim | |String | |
+ |cidade | |String | |
+ |pais | |String | |
+ |evento | |EdicaoVoList_Evento | |
+ |_links | |EdicaoVoList__links | |
+        h3. EdicaoVoList_Evento
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |areaCon | |String | |
+ |instOrg | |String | |
+ |edicoes | |array[null] | |
+        h3. EdicaoVoList__links
+        ||Field Name||Required||Type||Description||
+         |self | |EdicaoVoList__links_Self | |
+        h3. EdicaoVoList__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Evento
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |areaCon | |String | |
+ |instOrg | |String | |
+ |edicoes | |array[null] | |
+        h3. EventoVoList
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |area | |String | |
+ |inst | |String | |
+ |edicao | |array[null] | |
+ |_links | |EventoVoList__links | |
+        h3. EventoVoList__links
+        ||Field Name||Required||Type||Description||
+         |self | |EventoVoList__links_Self | |
+        h3. EventoVoList__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Model10
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |numero | |Integer | |
+ |ano | |Integer | |
+ |dataInicio | |String | |
+ |dataFim | |String | |
+ |cidade | |String | |
+ |pais | |String | |
+ |evento | |Model10_Evento | |
+ |_links | |Model10__links | |
+        h3. Model10_Evento
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |areaCon | |String | |
+ |instOrg | |String | |
+ |edicoes | |array[null] | |
+        h3. Model10__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model10__links_Self | |
+        h3. Model10__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Model11
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |area | |String | |
+ |inst | |String | |
+ |edicao | |Object | |
+ |_links | |Model11__links | |
+        h3. Model11__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model11__links_Self | |
+        h3. Model11__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Model12_Evento
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |areaCon | |String | |
+ |instOrg | |String | |
+ |edicoes | |array[null] | |
+        h3. Model5
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |area | |String | |
+ |inst | |String | |
+ |edicao | |Object | |
+ |_links | |_links | |
+        h3. Model6
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |numero | |Integer | |
+ |ano | |Integer | |
+ |dataInicio | |String | |
+ |dataFim | |String | |
+ |cidade | |String | |
+ |pais | |String | |
+ |evento | |Model6_Evento | |
+ |_links | |Model6__links | |
+        h3. Model6_Evento
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |areaCon | |String | |
+ |instOrg | |String | |
+ |edicoes | |array[null] | |
+        h3. Model6__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model6__links_Self | |
+        h3. Model6__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Model7
+        ||Field Name||Required||Type||Description||
+         |_embedded | |_embedded | |
+ |_links | |Model7__links | |
+ |page | |Page | |
+        h3. Model7__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model7__links_Self | |
+        h3. Model7__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Model8
+        ||Field Name||Required||Type||Description||
+         |_embedded | |Model8__embedded | |
+ |_links | |Model8__links | |
+ |page | |Model8_Page | |
+        h3. Model8_Page
+        ||Field Name||Required||Type||Description||
+         |size | |Integer | |
+ |totalElements | |Integer | |
+ |totalPages | |Integer | |
+ |number | |Integer | |
+        h3. Model8__embedded
+        ||Field Name||Required||Type||Description||
+         |edicaoVoList | |array[EdicaoVoList] | |
+        h3. Model8__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model8__links_Self | |
+        h3. Model9
+        ||Field Name||Required||Type||Description||
+         |id | |Integer | |
+ |nome | |String | |
+ |sigla | |String | |
+ |area | |String | |
+ |inst | |String | |
+ |edicao | |array[null] | |
+ |_links | |Model9__links | |
+        h3. Model9__links
+        ||Field Name||Required||Type||Description||
+         |self | |Model9__links_Self | |
+        h3. Model9__links_Self
+        ||Field Name||Required||Type||Description||
+         |href | |String | |
+        h3. Page
+        ||Field Name||Required||Type||Description||
+         |size | |Integer | |
+ |totalElements | |Integer | |
+ |totalPages | |Integer | |
+ |number | |Integer | |
+        h3. _embedded
+        ||Field Name||Required||Type||Description||
+         |eventoVoList | |array[EventoVoList] | |
+        h3. _links
+        ||Field Name||Required||Type||Description||
+         |self | |Self | |
