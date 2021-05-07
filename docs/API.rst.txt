@@ -50,6 +50,11 @@ evento           O evento a qual a edição pertence
 GET
 ++++
 
+Listar Edições 
+
+OBS: Para listar por ID so acrescentar o ID 
+EX:localhost:8080/edicao/1
+
 .. code-block:: bash
 
     GET localhost:8080/edicao
@@ -85,6 +90,10 @@ inst             Instituição do evento
 
 GET
 ++++
+Listar Eventos.
+
+OBS: Para listar por ID so acrescentar o ID 
+EX:localhost:8080/evento/1
 
 .. code-block:: bash
 
