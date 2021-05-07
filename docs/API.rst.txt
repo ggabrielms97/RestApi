@@ -1,0 +1,181 @@
+========================
+REST API Documentation
+========================
+
+List Resource
+~~~~~~~~~~~~~~~
+
+
+POST 
+++++++
+
+Criar uma nova Edicão.
+
+==============   ===============
+Param            Description
+==============   ===============
+numero           Numero da edição 
+ano              Ano da edicão 
+dataInicio       Data prevista para o inicio da edição
+dataFim          Data prevista para o fim da edição
+cidade           Cidade onde esta sendo realizada
+pais             Pais onde esta sendo realizada
+evento           O evento a qual a edição pertence
+==============   ===============
+
+.. code-block:: text
+
+   POST localhost:8080/edicao HTTP/1.1 
+
+.. code-block:: js
+
+            {
+              "numero": "01",
+              "ano": "2021",
+              "dataInicio": "11/08",
+              "dataFim": "16/08",
+              "cidade": "Saquarema",
+              "pais": "Brasil",
+              "evento": {
+                "id": 1,
+                "nome": "Word Surf League",
+                "sigla": "WSL",
+                "areaCon": "",
+                "instOrg": "WSL",
+                "edicoes": []
+              }
+            }
+   
+
+GET
+++++
+
+.. code-block:: bash
+
+    GET localhost:8080/edicao
+
+
+POST
++++++
+
+Criar um novo Evento
+
+==============   ===============
+Param            Description
+==============   ===============
+name             Nome do Evento
+sigla            Sigla do Evento 
+area             Area do Evento
+inst             Instituição do evento
+==============   ===============
+
+.. code-block:: text
+  
+    POST localhost:8080/evento HTTP/1.1 
+
+.. code-block:: js
+
+            {
+              "nome": "Word Surf League",
+              "sigla": "WSL",
+              "area": "BR",
+              "inst": "WSL"
+            }
+
+
+GET
+++++
+
+.. code-block:: bash
+
+    GET localhost:8080/evento
+
+
+
+DELETE
++++++++
+
+Deletar uma edicção.
+
+.. code-block:: text
+
+    DELETE http://localhost:8080/edicao/1 HTTP/1.1
+
+
+
+DELETE
++++++++
+
+Deletar um evento.
+
+.. code-block:: text
+
+    DELETE http://localhost:8080/evento/1 HTTP/1.1
+
+
+PUT
+++++++
+
+Editar um Evento.
+
+==============   ===============
+name             Nome do Evento
+sigla            Sigla do Evento 
+area             Area do Evento
+inst             Instituição do evento
+==============   ===============
+
+.. code-block:: text
+  
+    POST localhost:8080/evento HTTP/1.1 
+
+.. code-block:: js
+
+            {
+              "id": "1",
+              "nome": "Word Surf League",
+              "sigla": "WSL",
+              "area": "BR",
+              "inst": "WSL"
+            }
+
+PUT
+++++++
+
+Editar uma Edição.
+
+==============   ===============
+Param            Description
+==============   ===============
+numero           Numero da edição 
+ano              Ano da edicão 
+dataInicio       Data prevista para o inicio da edição
+dataFim          Data prevista para o fim da edição
+cidade           Cidade onde esta sendo realizada
+pais             Pais onde esta sendo realizada
+evento           O evento a qual a edição pertence
+==============   ===============
+
+.. code-block:: text
+
+   POST localhost:8080/edicao HTTP/1.1 
+
+.. code-block:: js
+
+            {
+              "id": "1",
+              "numero": "01",
+              "ano": "2021",
+              "dataInicio": "11/08",
+              "dataFim": "16/08",
+              "cidade": "Saquarema",
+              "pais": "Brasil",
+              "evento": {
+                "id": 1,
+                "nome": "Word Surf League",
+                "sigla": "WSL",
+                "areaCon": "",
+                "instOrg": "WSL",
+                "edicoes": []
+              }
+            }
